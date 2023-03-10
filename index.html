@@ -53,16 +53,7 @@
       // https://github.com/mytom1998/docsget
       // 全文搜索 - Search
       search: 'auto',
-    },
-   //底部footer
-                plugins: [function(hook) {
-                    var footer = ['<hr/>', '<footer>','<span>  Powered by dosget </span>', '<p>','<span></footer>'].join('')
-                    hook.afterEach(function(html) {
-                        return html + footer
-                    })
-                }
-                ]//footer end
-            }
+    }
   </script>
   <script src="//fastly.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
   <script src="//unpkg.zhimg.com/docsify-copy-code@2"></script>
