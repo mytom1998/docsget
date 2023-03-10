@@ -49,12 +49,30 @@
       repo: 'https://github.com/docsget',
       auto2top: true,
 
-      // ************************* Plugins *************************
-      // https://github.com/mytom1998/docsget
-      // 全文搜索 - Search
-      search: 'auto',
-    }
-  </script>
+      //设置搜索
+                search: {
+                    maxAge: 86400000,
+                    // 过期时间，单位毫秒，默认一天
+                    paths: 'auto',
+                    // or 'auto'
+                    placeholder: '搜索',
+
+                    noData: '找不到结果',
+
+                    // 搜索标题的最大程级, 1 - 6
+                    depth: 3
+                },
+                //底部footer
+                plugins: [function(hook) {
+                    var footer = ['<hr/>', '<footer>','<span>  Powered by dosget </span>', '<p>','<span></footer>'].join('')
+
+                    hook.afterEach(function(html) {
+                        return html + footer
+                    })
+                }
+                ]//footer end
+            }
+        </script>
   <script src="//fastly.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/docsify-copy-code/2.1.1/docsify-copy-code.min.js"></script>
   <!-- Plugins：分页 -->
