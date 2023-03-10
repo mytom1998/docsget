@@ -33,7 +33,7 @@
       // ************************* Configuration *************************
       // https://raw.githubusercontent.com/mytom1998/docsget/master/README.md
       // https://purge.jsdelivr.net/gh/mytom1998/docsget@master/README.md
-      maxLevel:4,
+      maxLevel:3,
       subMaxLevel: 3,
       topMargin: 40,
       pagination: {
@@ -54,6 +54,15 @@
       // 全文搜索 - Search
       search: 'auto',
     }
+   //底部footer
+                plugins: [function(hook) {
+                    var footer = ['<hr/>', '<footer>','<span>  Powered by dosget </span>', '<p>','<span></footer>'].join('')
+                    hook.afterEach(function(html) {
+                        return html + footer
+                    })
+                }
+                ]//footer end
+            }
   </script>
   <script src="//fastly.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
   <script src="//unpkg.zhimg.com/docsify-copy-code@2"></script>
