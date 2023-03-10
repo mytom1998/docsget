@@ -15,8 +15,9 @@
 - RouterOS DDNS For Cloudflare
 
 #### 版权许可
-本网站采用 CC BY-NC/SA 4.0为许可协议;
+- 主题/文章采用 CC BY-NC/SA 4.0为许可协议;
 非商业性知识共享许可。
+- GutHub项目采用 GNU General Public License v3.0 为开源许可协议。
 
 👉🏻 [Details](permit.md)
 
