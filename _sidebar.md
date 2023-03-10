@@ -10,6 +10,7 @@
 *   Study
 
     *   [防止反向代理](/Prevent_proxy/)
+    *   [跨域访问](/Cross-domain/)
 
 *   Others
 
