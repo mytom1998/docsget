@@ -5,17 +5,21 @@
 
 所谓同源是指，域名，协议，端口均相同，不明白没关系，举个例子：
 
-> `http://v1.demo.io/index.html` 调用 
-`http://v1.demo.io/server.php` （非跨域）
-`http://v2.demo.io/index.html` 调用 
-`http://v2.demo.io/server.php`（子域名不同:v1/v2，跨域）
+`http://v1.123.io/index.html` 调用 
 
+`http://v1.123.io/server.php` （非跨域）
+***
+`http://v2.123.io/index.html` 调用 
 
-> `http://www.demo.io:8080/index.html` 调用 
-`http://www.demo.io:8081/server.php` （端口不同:8080/8081，跨域）
+`http://v2.122.io/server.php`（子域名不同:v1/v2，跨域）
+***
+`http://www.123.io:8080/index.html` 调用 
 
-> `http://www.demo.io/index.html` 调用 
-`https://www.demo.io/server.php` （协议不同:http/https，跨域）
+`http://www.123.io:8081/server.php` （端口不同:8080/8081，跨域）
+***
+`http://www.123.io/index.html` 调用 
+
+`https://www.123.io/server.php` （协议不同:http/https，跨域）
 
 ### 解决方法
 
