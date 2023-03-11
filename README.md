@@ -31,4 +31,4 @@
 
 <!-- tabs:end -->
 #### Intangible Assets
-[![logo](https://raw.githubusercontent.com/mytom1998/docsget/master/usr/uploads/img/logo.png)](#)
+[![logo](https://www.docsget.com/usr/uploads/img/logo.svg)](#)
