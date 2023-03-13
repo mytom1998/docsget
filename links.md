@@ -7,8 +7,8 @@
 - 网站不稳定，打开速度慢，被挂木马、后门等网站，拒绝友链；
 ```
 nickname：docsget
-site：https://docsget.com
-logo：https://docsget.com/tom.jpg
+site：https://www.docsget.com
+logo：https://www.docsget.com/tom.jpg
 description：docsget simple and lightweight
 ```
 采先友后链，以上步骤完成后 [联络我](message) 透过邮箱告知。
